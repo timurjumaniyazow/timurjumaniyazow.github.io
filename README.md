@@ -1,1 +1,0 @@
-# timurjumaniyazow.github.io
