@@ -21,8 +21,10 @@ $(document).ready(function(){
         prevArrow: '<button type="button" class="slick-next"><img src="img/icons/left.svg"></button>',
         nextArrow: '<button type="button" class="slick-prev"><img src="img/icons/right.svg"></button>',
         appendArrows: $('.team__arrows'),
-        slidesToShow: 1,
+        slidesToShow: 4,
         variableWidth: true,
+        slidesToScroll: 1,
+        infinite: true,
     });
 });
 window.addEventListener('DOMContentLoaded', () => {
